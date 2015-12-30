@@ -1,0 +1,38 @@
+@import "materialize/components/_color.scss";
+@import "materialize/components/_variables.scss";
+
+header nav {
+  ul {
+    display: inline-block;
+    a {
+      font-size: 1.5em;
+    }
+  }
+  .nav-wrapper {
+    text-align: center;
+  }
+}
+
+ul.collapsible.popout .collapsible-body div.row {
+  padding: 2rem;
+}
+
+body {
+  header, section {
+    background-color: $primary-color;
+  }
+}
+
+.image-list {
+  div {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  text-align: center;
+}
+
+.collapsible .collapsible-body .slider {
+  padding: 0 20px;
+  margin-bottom: 20px;
+}

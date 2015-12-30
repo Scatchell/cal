@@ -21,6 +21,7 @@
   .card-title {
     font-size: 24px;
     font-weight: 300;
+    color: $card-title-text-color;
     &.activator {
       cursor: pointer;
     }
@@ -93,7 +94,7 @@
 
     p {
       margin: 0;
-      color: inherit;
+      color: $card-content-text-color;
     }
     .card-title {
       line-height: 48px;
