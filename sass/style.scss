@@ -18,9 +18,10 @@ ul.collapsible.popout .collapsible-body div.row {
 }
 
 body {
-  header, section {
+  header, .section {
     background-color: $primary-color;
   }
+  background-color: $primary-color;
 }
 
 .image-list {
@@ -36,3 +37,21 @@ body {
   padding: 0 20px;
   margin-bottom: 20px;
 }
+
+p {
+  color: $text-color;
+  font-size: 1.2em;
+}
+
+h1 {
+  color: color("yellow", "base");
+}
+
+h4 {
+  color: color("yellow", "lighten-2");
+}
+
+h5 {
+  color: color("shades", "white");
+}
+

@@ -3,10 +3,12 @@ $primary-color: color("blue", "lighten-1") !default;
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
 
+$text-color: color("yellow", "lighten-2") !default;
+
 $secondary-color: color("teal", "lighten-1") !default;
 $success-color: color("green", "base") !default;
 $error-color: color("red", "base") !default;
-$link-color: color("light-blue", "darken-1") !default;
+$link-color: color("grey", "lighten-4") !default;
 
 /*** Badges ***/
 $badge-bg-color: $secondary-color !default;
@@ -144,7 +146,7 @@ $h5-fontsize: 1.64rem !default;
 $h6-fontsize: 1rem !default;
 
 // Footer
-$footer-bg-color: $primary-color !default;
+$footer-bg-color: color("blue", "base") !default;
 
 // Flowtext
 $range : $large-screen - $small-screen !default;
