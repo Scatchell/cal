@@ -9,3 +9,16 @@ header nav ul {
 header nav ul a {
     font-size: 1.5em;
 }
+
+ul.collapsible.popout .collapsible-body div.row {
+    padding: 2rem;
+}
+
+.image-list {
+    text-align: center;
+}
+
+.image-list div {
+    display: inline-block;
+    margin-right: 10px;
+}
