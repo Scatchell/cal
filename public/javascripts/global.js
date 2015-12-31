@@ -6,7 +6,12 @@
 $(document).ready(function () {
     $('.parallax').parallax();
 
-    $('.slider').slider({full_width: true});
+    $('.slider').slider(
+        {
+            full_width: true,
+            height: 600
+        }
+    );
 
     $('.right-nav-wrapper').pushpin(
         {
