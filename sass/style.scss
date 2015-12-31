@@ -38,20 +38,35 @@ body {
   margin-bottom: 20px;
 }
 
+.collapsible .collapsible-header {
+  background-color: white;
+  color: $primary-color;
+}
+
 p {
   color: $text-color;
   font-size: 1.2em;
 }
 
-h1 {
-  color: color("yellow", "base");
+.services .section h4 {
+  background-color: white;
+  color: color("blue", "base");
+  padding: 5px;
 }
 
-h4 {
-  color: color("yellow", "lighten-2");
-}
-
-h5 {
+h1, h3, h4, h5 {
   color: color("shades", "white");
 }
 
+.table-of-contents li a {
+  color: white;
+}
+
+.services .section img {
+  margin: 0 20px 0 0;
+}
+
+#inquiries {
+  height: 200px;
+  padding-top: 50px;
+}
