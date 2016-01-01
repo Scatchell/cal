@@ -22,5 +22,6 @@ $(document).ready(function () {
     );
 
     $('.scroll-spy').scrollSpy();
-});
 
+    $('.modal-trigger').leanModal();
+});

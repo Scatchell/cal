@@ -1,0 +1,9 @@
+@import "materialize/components/_color.scss";
+@import "materialize/components/_variables.scss";
+
+body .modal {
+  height: 450px;
+  width: 600px;
+  overflow: hidden;
+}
+

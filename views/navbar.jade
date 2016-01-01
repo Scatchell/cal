@@ -9,8 +9,12 @@ header
             div#inquiries.valign-wrapper
                 div
                     h5.valign Inquiries:
-                    h5.valign Central Ave: 773-763-5888
-                    h5.valign Milwaukee Ave: 773-763-0888
+                    h5.valign
+                        a(href="#central-modal")#central-modal-link.modal-trigger Central Ave:
+                        span.phone-number 773-763-5888
+                    h5.valign
+                        a(href="#milwaukee-modal")#milwaukee-modal-link.modal-trigger Milwaukee Ave:
+                        span.phone-number 773-763-0888
     nav.top-nav
         div.nav-wrapper
             ul#nav-mobile.hide-on-med-and-down
