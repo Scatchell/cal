@@ -13,15 +13,18 @@ $(document).ready(function () {
         }
     );
 
-    $('.right-nav-wrapper').pushpin(
-        {
-            top: $('.right-nav').offset().top,
-            bottom: $('footer').offset().top - $('.right-nav-wrapper').height(),
-            offset: 15
-        }
-    );
+    var $rightNavWrapper = $('.right-nav-wrapper');
+    if ($rightNavWrapper.length > 0) {
+        $rightNavWrapper.pushpin(
+            {
+                top: $('.right-nav').offset().top,
+                bottom: $('footer').offset().top - $rightNavWrapper.height(),
+                offset: 15
+            }
+        );
 
-    $('.scroll-spy').scrollSpy();
+        $('.scroll-spy').scrollSpy();
+    }
 
     $('.modal-trigger').leanModal();
 });
