@@ -55,6 +55,7 @@ h1, h3, h4, h5 {
 
 .table-of-contents li a {
   color: white;
+  text-decoration: none;
 }
 
 .classrooms .section img {
@@ -72,4 +73,21 @@ h1, h3, h4, h5 {
 
 .card .card-content p {
   margin-bottom: 18px;
+}
+
+a:visited {
+  color: color("grey", "lighten-2");
+  text-decoration: underline;
+}
+
+header nav.top-nav {
+  a, a:visited {
+    color: color("shades", "white");
+    text-decoration: none;
+  }
+}
+
+a {
+  color: color("green", "lighten-4");
+  text-decoration: underline;
 }
