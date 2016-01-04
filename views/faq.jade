@@ -1,0 +1,26 @@
+extends layout
+
+block content
+    div.row
+        div.parallax-container
+            div.parallax
+                img(src="images/Big_3BoysPlayWithToys.JPG", style="display: block")
+    div.container
+        div.row
+            h1 Frequently Asked Questions
+            div#faq-list.col.l12
+                input.search(placeholder="Search")
+                ul.collection.with-header.faqs.list
+                    each faq in faqs
+                        - question = faq.question
+                        - answer = faq.answer
+                        li.collection-item
+                            div.question
+                                =question
+                                span.secondary-content
+                                    img(src="/images/question_icon.png")
+                            div.answer
+                                =answer
+                                span.secondary-content
+                                    img(src="/images/answer_icon.png")
+

@@ -81,7 +81,7 @@ a:visited {
 }
 
 header nav.top-nav {
-  a, a:visited {
+  a {
     color: color("shades", "white");
     text-decoration: none;
   }
@@ -90,4 +90,8 @@ header nav.top-nav {
 a {
   color: color("green", "lighten-4");
   text-decoration: underline;
+}
+
+ul.faqs li.collection-item .answer {
+  padding-top: 10px;
 }

@@ -27,4 +27,13 @@ $(document).ready(function () {
     }
 
     $('.modal-trigger').leanModal();
+
+    var options = {
+        valueNames: [ 'question', 'answer' ],
+        plugins: [
+            ListFuzzySearch()
+        ]
+    };
+
+    new List('faq-list', options);
 });
