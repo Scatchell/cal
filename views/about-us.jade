@@ -1,6 +1,7 @@
 extends layout
 
 block content
+    script(src='/javascripts/about-us.js')
     div.row
         div.parallax-container
             div.parallax
@@ -9,7 +10,7 @@ block content
         ul.tabs.z-depth-1
             li.tab.col.l3
                 a(href="#locations") Locations
-            li.tab.col.l3
+            li.tab.col.l3.scroll-spy-enabled
                 a(href="#philosophy") Philosophy
             li.tab.col.l3
                 a(href="#model") Educational Model
@@ -17,8 +18,8 @@ block content
                 a(href="#curriculum") Curriculum
         div#locations.col.l12.
             Information about locations
-        div#philosophy.col.l12.
-            Information about PHILOSOPHY
+        div#philosophy.col.l12
+            include philosophy.jade
         div#model.col.l12.
             Information about MODEL
         div#curriculum.col.l12.
