@@ -2,8 +2,25 @@
 @import "materialize/components/_variables.scss";
 
 body .modal {
-  height: 450px;
+  height: 500px;
   width: 600px;
   overflow: hidden;
 }
 
+#central-modal.modal, #milwaukee-modal.modal {
+  background-color: transparent;
+}
+
+.modal-close-button {
+  background-color: white;
+  width: 35px;
+  float: right;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  a {
+    padding: 0;
+    i {
+      font-size: 37px;
+    }
+  }
+}
