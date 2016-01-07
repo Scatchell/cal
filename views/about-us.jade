@@ -2,16 +2,19 @@ extends layout
 
 block content
     div.row
-        div.col.l12
-            ul.tabs
-                li.tab.col.l3
-                    a(href="#locations") Locations
-                li.tab.col.l3
-                    a(href="#philosophy") Philosophy
-                li.tab.col.l3
-                    a(href="#model") Educational Model
-                li.tab.col.l3
-                    a(href="#curriculum") Curriculum
+        div.parallax-container
+            div.parallax
+                img(src="images/Big_3BoysPlayWithToys.JPG", style="display: block")
+    div.row
+        ul.tabs.z-depth-1
+            li.tab.col.l3
+                a(href="#locations") Locations
+            li.tab.col.l3
+                a(href="#philosophy") Philosophy
+            li.tab.col.l3
+                a(href="#model") Educational Model
+            li.tab.col.l3
+                a(href="#curriculum") Curriculum
         div#locations.col.l12.
             Information about locations
         div#philosophy.col.l12.

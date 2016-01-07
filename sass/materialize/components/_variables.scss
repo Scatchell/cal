@@ -123,8 +123,8 @@ $spinner-default-color: $secondary-color !default;
 
 /*** Tabs ***/
 $tabs-underline-color: $primary-color-light !default;
-$tabs-text-color: $primary-color !default;
-$tabs-bg-color: #fff !default;
+$tabs-text-color: $text-color !default;
+$tabs-bg-color: $primary-color !default;
 
 /*** Tables ***/
 $table-border-color: #d0d0d0 !default;
