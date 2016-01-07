@@ -37,5 +37,8 @@ $(document).ready(function () {
 
     new List('faq-list', options);
 
-    $(".dropdown-button").dropdown();
+    $(".dropdown-button").dropdown({
+        belowOrigin: true,
+        hover: true
+    });
 });
