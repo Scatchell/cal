@@ -1,3 +1,5 @@
+include ./dropdown.jade
+
 header
     div.row.center
         div.col.l4.offset-l2
@@ -22,8 +24,9 @@ header
                     a(href="/classrooms") Classrooms
                 li
                     a(href="/enrollment") Enrollment
-                li
+                li.dropdown-button(data-activates="about-us-dropdown")
                     a(href="/about-us") About Us
+                        i.material-icons.right arrow_drop_down
                 li
                     a(href="/virtual-tour") Virtual Tour
                 li
