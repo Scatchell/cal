@@ -1,6 +1,5 @@
-mixin expandableImage(caption, src)
-    img.circle.materialboxed(data-caption=caption, width="200", src=src)
-
+mixin expandableImage(src)
+    img.circle.materialboxed(width="200", src=src)
 
 div.row
     div.col.s12.m12
@@ -18,10 +17,10 @@ div.row
                             p Because of our low staff turn-over,&nbsp; children will feel comfortable when they see the same faces each day.&nbsp; On average our teachers have about 8 years of teaching experience.
                             div.image-list
                                 span
-                                    +expandableImage("School fireman", "images/expandable-images/school_fireman.jpg")
-                                    +expandableImage("Birthday Cake", "images/expandable-images/Big_TeacherBirthdayCake.JPG")
-                                    +expandableImage("Teacher", "images/expandable-images/Big_Teacher3.jpg")
-                                    +expandableImage("More teachers", "images/expandable-images/Big_CalTeachers2.JPG")
+                                    +expandableImage("images/expandable-images/school_fireman.jpg")
+                                    +expandableImage("images/expandable-images/Big_TeacherBirthdayCake.JPG")
+                                    +expandableImage("images/expandable-images/Big_Teacher3.jpg")
+                                    +expandableImage("images/expandable-images/Big_CalTeachers2.JPG")
                     li
                         div.collapsible-header Fully enclosed private playlot for children
                         div.collapsible-body
