@@ -1279,7 +1279,7 @@ $(document).ready(function(){
           $indicator.velocity({"right": $tabs_width - (($index + 1) * $tab_width)}, {duration: 300, queue: false, easing: 'easeOutQuad', delay: 90});
         }
 
-          $('ul.tabs').trigger('tab_change', $active);
+        $('ul.tabs').trigger('tab_change', $active);
 
         // Prevent the anchor's default click action
         e.preventDefault();
