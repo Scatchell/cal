@@ -9,6 +9,10 @@ router.get('/classrooms', function (req, res, next) {
     res.render('classrooms', {});
 });
 
+router.get('/about-us', function (req, res, next) {
+    res.render('about-us', {});
+});
+
 router.get('/faq', function (req, res, next) {
     res.render('faq', {
         faqs: [

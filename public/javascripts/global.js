@@ -41,4 +41,6 @@ $(document).ready(function () {
         belowOrigin: true,
         hover: true
     });
+
+    $('ul.tabs').tabs();
 });
