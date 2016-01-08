@@ -12,7 +12,7 @@ block content
                 a(href="#locations") Locations
             li.tab.col.l3.scroll-spy-enabled
                 a(href="#philosophy") Philosophy
-            li.tab.col.l3
+            li.tab.col.l3.scroll-spy-enabled
                 a(href="#model") Educational Model
             li.tab.col.l3
                 a(href="#curriculum") Curriculum
@@ -20,7 +20,9 @@ block content
             include locations.jade
         div#philosophy.col.l12
             include philosophy.jade
-        div#model.col.l12.
-            Information about MODEL
-        div#curriculum.col.l12.
-            Information about CURRICULUM
+        div#model.col.l12
+           include educational-model.jade
+        div#curriculum.col.l12
+            div.row
+                div.col.l12.
+                    Information about CURRICULUM
