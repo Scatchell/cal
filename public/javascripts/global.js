@@ -2,11 +2,13 @@
  *
  * Created by anthonyscatchell on 12/28/15.
  */
-function initializeScrollSpy() {
-    var $rightNavWrapper = $('.right-nav-wrapper');
+function initializeScrollSpy(scrollSpyContext) {
+    var context = scrollSpyContext ? $(scrollSpyContext) : $('body');
+
+    var $rightNavWrapper = context.find('.right-nav-wrapper');
     $rightNavWrapper.pushpin(
         {
-            top: $('.right-nav').offset().top,
+            top: context.find('.right-nav').offset().top,
             bottom: $('footer').offset().top - $rightNavWrapper.height(),
             offset: 15
         }
