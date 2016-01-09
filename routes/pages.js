@@ -40,5 +40,8 @@ router.get('/faq', function (req, res, next) {
     });
 });
 
+router.get('/virtual-tour', function (req, res, next) {
+    res.render('virtual-tour', {});
+});
 
 module.exports = router;
