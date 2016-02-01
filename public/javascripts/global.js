@@ -44,4 +44,12 @@ $(document).ready(function () {
     });
 
     $('ul.tabs').tabs();
+
+    $('.slider').slider('pause');
+
+    $(".cal-videos").each(function (index, calVideo) {
+        $(calVideo).bind("ended", function () {
+            $('.slider').slider('next');
+        });
+    });
 });
