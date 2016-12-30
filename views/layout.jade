@@ -8,13 +8,13 @@ html
         link(rel='stylesheet', href='/stylesheets/style.css')
         link(rel='stylesheet', href='/stylesheets/modal-overrides.css')
         link(rel="stylesheet", href="https://fonts.googleapis.com/icon?family=Material+Icons")
+        script(src='/javascripts/lib/jquery-1.11.3.js')
     body
         include ./modal.jade
         include ./navbar.jade
-        script(src='/javascripts/jquery-1.11.3.js')
-        script(src='/javascripts/materialize/bin/materialize.js')
+        script(src='/javascripts/lib/materialize/bin/materialize.js')
         script(src='/javascripts/global.js')
-        script(src='/javascripts/list.js')
-        script(src='/javascripts/list.fuzzysearch.min.js')
+        script(src='/javascripts/lib/list.js')
+        script(src='/javascripts/lib/list.fuzzysearch.min.js')
         block content
     include ./footer.jade
