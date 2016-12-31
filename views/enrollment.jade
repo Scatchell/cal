@@ -1,4 +1,44 @@
 extends layout
 
 block content
-    h1 Under construction
+    div.row
+        div.parallax-container
+            div.parallax
+                img(src="images/Big_3BoysPlayWithToys.JPG", style="display: block")
+    div.row
+        div.col.m9
+            div.container.classrooms
+                h1 Enrollment Forms
+                p Please print the following forms out, complete them, and bring them to the school when you're ready to apply!
+                ul.collapsible(data-collapsible="expandable")
+                    li
+                        div.collapsible-header.active Application Form
+                        div.collapsible-body
+                            p This form is used to apply for your child to attend Care-A-Lot Early Learning centers!
+                            p.center-align
+                                a(href="documents/child-application-form.doc") Download
+                    li
+                        div.collapsible-header.active Questionnaire
+                        div.collapsible-body
+                            p Placeholder text
+                            p.center-align
+                                a(href="documents/questionnaire-1.docx") Download first questionnaire
+                                a(href="documents/questionnaire-2.docx") Download second questionnaire
+                    li
+                        div.collapsible-header.active Permission Authorization
+                        div.collapsible-body
+                            p Placeholder text
+                            p.center-align
+                                a(href="documents/permission-authorization.doc") Download
+                    li
+                        div.collapsible-header.active Emergency Card
+                        div.collapsible-body
+                            p These are the documents you can fill out in case of emergency so someone can come to pick up your child. The emergency contacts must be:
+                                br
+                                br
+                                | 1. 16 years or older
+                                br
+                                | 2. Have a valid drivers license
+                            p Your child will be allowed to leave with whoever you put on these forms at any time. If no one fits the requirements, an order of protection form or custody papers are required.
+                            p.center-align
+                                a(href="documents/emergency-card.doc") Download
