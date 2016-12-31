@@ -9,10 +9,6 @@ router.get('/classrooms', function (req, res, next) {
     res.render('classrooms', {});
 });
 
-router.get('/enrollment', function (req, res, next) {
-    res.render('enrollment', {});
-});
-
 router.get('/about-us', function (req, res, next) {
     res.render('about-us', {});
 });
@@ -78,6 +74,14 @@ router.get('/faq', function (req, res, next) {
 
 router.get('/virtual-tour', function (req, res, next) {
     res.render('virtual-tour', {});
+});
+
+router.get('/enrollment', function (req, res, next) {
+    res.render('enrollment', {});
+});
+
+router.get('/contact-us', function (req, res, next) {
+    res.render('contact-us', {});
 });
 
 module.exports = router;
