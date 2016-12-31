@@ -80,8 +80,4 @@ router.get('/virtual-tour', function (req, res, next) {
     res.render('virtual-tour', {});
 });
 
-router.get('/margaret', function (req, res, next) {
-    res.render('index_secret', {});
-});
-
 module.exports = router;
