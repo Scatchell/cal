@@ -39,6 +39,38 @@ router.get('/faq', function (req, res, next) {
             {
                 question: 'What kind of certifications do your teachers have?',
                 answer: 'Our teachers are certified in First Aid, CPR, Food and Sanitation, and Mildly Infectious Disease.'
+            },
+            {
+                question: 'How will will I know what my child\'s day was like?',
+                answer: 'Teachers link parents with what their children are doing through weekly and monthly newsletters, and daily information sheets.  We are always available to discuss any concerns that parents may have.'
+            },
+            {
+                question: 'Can I visit my child at school?',
+                answer: 'Yes!  Care-A-Lot has an open door policy, and parents are welcome to drop in, unannounced, at any time.'
+            },
+            {
+                question: 'What is the Care-A-Lot curriculum like?',
+                answer: 'Our curriculum will be comprised of activities highlighting the following areas:  Language Arts, Creative Art, Mathematics, Science, Music, Sensory Education, Computer Learning, Large Motor Skills, Small Motor Skills, and Pre-Reading.  For more details about our curriculum, please view our Education Model.'
+            },
+            {
+                question: 'How does Care-A-Lot feel about the way children grow and develop?',
+                answer: 'At Care-A-Lot we know how important your child\'s early years are.  In Care-A-Lot\'s home-like environment, children feel free to reach out to the people around them.  Please view our Educational Philosophy for further information.'
+            },
+            {
+                question: 'How are the age groups divided in the Care-A-Lot educational program?',
+                answer: 'The Care-A-Lot educational program will be divided into 4 separate age and developmental groups.  Please see our Educational Program for further information.'
+            },
+            {
+                question: 'What hours of the day does Care-A-Lot operate?',
+                answer: 'We are open and operating Monday through Friday from 7:00am to 6:00pm'
+            },
+            {
+                question: 'How can I get more information?',
+                answer: 'Feel free to contact us with any questions!'
+            },
+            {
+                question: 'What have other parents said about Care-A-Lot?',
+                answer: 'Please see the testimonials section of our webpage for real parent reviews.'
             }
         ]
     });
