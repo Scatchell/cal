@@ -2,63 +2,74 @@ link(rel="stylesheet", href="/stylesheets/revealjs/reveal.css")
 link#theme(rel="stylesheet", href="/stylesheets/revealjs/theme/black.css")
 
 .reveal
-    // Any section element inside of this container is displayed as a slide
     .slides
         section
-            h1 Reveal.js
-            h3 The HTML Presentation Framework
-            p
-                small
-                    | Created by
-                    a(href='http://hakim.se') Hakim El Hattab
-                    |  /
-                    a(href='http://twitter.com/hakimel') @hakimel
+            h3 Welcome to Care-A-Lot's...
+            h2 virtual tour!
+            p Just press the space-bar on your keyboard to go to the next slide!
+            p You can also use the arrows on your keyboard, or on the bottom right of the screen to navigate through the slides.
+            p Hit escape at any time to see an overview of the tour!
         section
-            h2 Hello There
-            p
-                | reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
-        // Example of nested vertical slides
-        section
-            section
-                h2 Vertical Slides
-                p Slides can be nested inside of each other.
+            section(data-transition='convex')
+                img(width='300' data-src='images/virtual-tour/tour-1.jpg')
                 p
-                    | Use the
-                    em Space
-                    |  key to navigate through all slides.
-                br
+                    | Everyday is a new and different learning experience!
                 a.navigate-down(href='#')
-                    img(width='178', height='238', data-src='https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png', alt='Down arrow')
+                    img(width='100', data-src='https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png', alt='Down arrow')
             section
-                h2 Basement Level 1
+                img(width='400' data-src='images/virtual-tour/tour-2.jpg')
                 p
-                    | Nested slides are useful for adding additional detail underneath a high level horizontal slide.
-            section
-                h2 Basement Level 2
-                p That's it, time to go back up.
-                br
-                a(href='#/2')
-                    img(width='178', height='238', data-src='https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png', alt='Up arrow', style='transform: rotate(180deg); -webkit-transform: rotate(180deg);')
+                    | Not just green paint. The children created this color by mixing paints together. Art, as a learning process, allows the children to experiment with colors by mixing their own colors and painting with them.
         section
-            h2 Slides
+            img(width='500' data-src='images/virtual-tour/tour-3.jpg')
             p
-                | Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at
-                a(href='http://slides.com', target='_blank') http://slides.com
-                | .
+                | Parallel play! Children explore and discover on their own. This type of play serves as a bridge to more complex cooperative activities as the children grow.
+        section
+            img(width='600' data-src='images/virtual-tour/tour-4.jpg')
+            p
+                | The center had a huge party to celebrate Mickey Mouse’s Birthday. The children enjoyed the festivities.
+        section
+            img(width='600' data-src='images/virtual-tour/stop-drop-and-roll.jpg')
+            p
+                | Learning about fire safety rules during fire safety week!
+        section
+            img(width='400' data-src='images/virtual-tour/snow-angels.jpg')
+            p
+                | Making snow angels!
+        section
+            img(width='400' data-src='images/virtual-tour/team-spirit.jpg')
+            p
+                | Chicago team spirit
+        section
+            img(width='500' data-src='images/virtual-tour/pumpkin-field-trip.jpg')
+            p
+                | Our annual pumpkin farm field trip
+        section
+            img(width='600' data-src='images/virtual-tour/halloween.jpg')
+            p
+                | Even the smallest ghosts and goblins enjoy Halloween festivities.
+        section
+            img(width='600' data-src='images/virtual-tour/pumpkin-patch.jpg')
+            p
+                | Showing off our pumpkins at the annual Care-A-Lot pumpkin patch.
+        section
+            section
+                p Fun with musical chairs!
+                a.navigate-down(href='#')
+                    img(width='100', data-src='https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png', alt='Down arrow')
+            section(data-background-video='videos/musical-chairs.mp4', data-background-color='#000000')
+        section
+            section
+                p Some of us *really* enjoy the turkey hop!
+                a.navigate-down(href='#')
+                    img(width='100', data-src='https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png', alt='Down arrow')
+            section(data-background-video='videos/turkey-dance.mp4', data-background-color='#000000')
         section
             h2 Point of View
-            p
-                | Press
-                strong ESC
-                |  to enter the slide overview.
             p
                 | Hold down alt and click on any element to zoom in on it using
                 a(href='http://lab.hakim.se/zoom-js') zoom.js
                 | . Alt + click anywhere to zoom back out.
-        section
-            h2 Touch Optimized
-            p
-                | Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
         section(data-markdown='')
             script(type='text/template').
                 ## Markdown support
@@ -91,49 +102,6 @@ link#theme(rel="stylesheet", href="/stylesheets/revealjs/theme/black.css")
                 p.fragment.current-visible current-visible
                 p.fragment.highlight-red highlight-red
                 p.fragment.highlight-blue highlight-blue
-        section#transitions
-            h2 Transition Styles
-            p
-                | You can select from different transitions, like:
-                br
-                a(href='?transition=none#/transitions') None
-                |  -
-                a(href='?transition=fade#/transitions') Fade
-                |  -
-                a(href='?transition=slide#/transitions') Slide
-                |  -
-                a(href='?transition=convex#/transitions') Convex
-                |  -
-                a(href='?transition=concave#/transitions') Concave
-                |  -
-                a(href='?transition=zoom#/transitions') Zoom
-        section#themes
-            h2 Themes
-            p
-                | reveal.js comes with a few themes built in:
-                br
-                // Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck.
-                a(href='#', onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;") Black (default)
-                |  -
-                a(href='#', onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;") White
-                |  -
-                a(href='#', onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;") League
-                |  -
-                a(href='#', onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;") Sky
-                |  -
-                a(href='#', onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;") Beige
-                |  -
-                a(href='#', onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;") Simple
-                br
-                a(href='#', onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;") Serif
-                |  -
-                a(href='#', onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;") Blood
-                |  -
-                a(href='#', onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;") Night
-                |  -
-                a(href='#', onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;") Moon
-                |  -
-                a(href='#', onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;") Solarized
         section
             section(data-background='#dddddd')
                 h2 Slide Backgrounds
