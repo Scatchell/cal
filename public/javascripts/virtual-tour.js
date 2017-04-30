@@ -10,8 +10,10 @@ link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 
 Reveal.initialize({
     controls: true,
     progress: true,
-    history: true,
+    history: false,
     center: true,
+    touch: true,
+    help: true,
     transition: 'slide', // none/fade/slide/convex/concave/zoom
     // Optional reveal.js plugins
     dependencies: [

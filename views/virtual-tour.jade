@@ -1,7 +1,10 @@
 link(rel="stylesheet", href="/stylesheets/revealjs/reveal.css")
+link(rel="stylesheet", href="/stylesheets/revealjs/custom-reveal-additions.css")
 link#theme(rel="stylesheet", href="/stylesheets/revealjs/theme/black.css")
 
+
 .reveal
+    a.exit-link(href='/') Exit Virtual Tour
     .slides
         section
             h3 Welcome to Care-A-Lot's...
@@ -29,6 +32,18 @@ link#theme(rel="stylesheet", href="/stylesheets/revealjs/theme/black.css")
             p
                 | The center had a huge party to celebrate Mickey Mouse’s Birthday. The children enjoyed the festivities.
         section
+            section
+                p Fun with musical chairs!
+                a.navigate-down(href='#')
+                    img(width='100', data-src='https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png', alt='Down arrow')
+            section(data-background-video='videos/musical-chairs.mp4', data-background-color='#000000')
+        section
+            section
+                p Some of us *really* enjoy the turkey hop!
+                a.navigate-down(href='#')
+                    img(width='100', data-src='https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png', alt='Down arrow')
+            section(data-background-video='videos/turkey-dance.mp4', data-background-color='#000000')
+        section
             img(width='600' data-src='images/virtual-tour/stop-drop-and-roll.jpg')
             p
                 | Learning about fire safety rules during fire safety week!
@@ -53,201 +68,28 @@ link#theme(rel="stylesheet", href="/stylesheets/revealjs/theme/black.css")
             p
                 | Showing off our pumpkins at the annual Care-A-Lot pumpkin patch.
         section
-            section
-                p Fun with musical chairs!
-                a.navigate-down(href='#')
-                    img(width='100', data-src='https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png', alt='Down arrow')
-            section(data-background-video='videos/musical-chairs.mp4', data-background-color='#000000')
-        section
-            section
-                p Some of us *really* enjoy the turkey hop!
-                a.navigate-down(href='#')
-                    img(width='100', data-src='https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png', alt='Down arrow')
-            section(data-background-video='videos/turkey-dance.mp4', data-background-color='#000000')
-        section
-            h2 Point of View
+            img(width='600' data-src='images/virtual-tour/creative-pretend-play.jpg')
             p
-                | Hold down alt and click on any element to zoom in on it using
-                a(href='http://lab.hakim.se/zoom-js') zoom.js
-                | . Alt + click anywhere to zoom back out.
-        section(data-markdown='')
-            script(type='text/template').
-                ## Markdown support
-                Write content using inline or external Markdown.
-                Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-                ```
-                <section data-markdown>
-                ## Markdown support
-                Write content using inline or external Markdown.
-                Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-                </section>
-                ```
+                | Creative pretend play. Children enjoy exploring and learning about our extinct friends. Be it dinosaurs or farm animals, the open-ended use of this activity leads imaginations to soar.
         section
-            section#fragments
-                h2 Fragments
-                p Hit the next arrow...
-                p.fragment ... to step through ...
-                p
-                    span.fragment ... a
-                    span.fragment fragmented
-                    span.fragment slide.
-                aside.notes
-                    | This slide has fragments which are also stepped through in the notes window.
-            section
-                h2 Fragment Styles
-                p There's different types of fragments, like:
-                p.fragment.grow grow
-                p.fragment.shrink shrink
-                p.fragment.fade-out fade-out
-                p.fragment.current-visible current-visible
-                p.fragment.highlight-red highlight-red
-                p.fragment.highlight-blue highlight-blue
-        section
-            section(data-background='#dddddd')
-                h2 Slide Backgrounds
-                p
-                    | Set
-                    code data-background="#dddddd"
-                    |  on a slide to change the background color. All CSS color formats are supported.
-                a.navigate-down(href='#')
-                    img(width='178', height='238', data-src='https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png', alt='Down arrow')
-            section(data-background='https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png')
-                h2 Image Backgrounds
-                pre.
-            section(data-background='https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png', data-background-repeat='repeat', data-background-size='100px')
-                h2 Tiled Backgrounds
-                pre.
-            section(data-background-video='https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm', data-background-color='#000000')
-                div(style='background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;')
-                    h2 Video Backgrounds
-                    pre.
-            section(data-background='http://i.giphy.com/90F8aUepslB84.gif')
-                h2 ... and GIFs!
-        section(data-transition='slide', data-background='#4d7e65', data-background-transition='zoom')
-            h2 Background Transitions
+            img(width='600' data-src='images/virtual-tour/soles-4-souls.jpg')
             p
-                | Different background transitions are available via the backgroundTransition option. This one's called "zoom".
-            pre.
-        section(data-transition='slide', data-background='#b5533c', data-background-transition='zoom')
-            h2 Background Transitions
-            p
-                | You can override background transitions per-slide.
-            pre.
+                | Soles 4 Souls: The children collected their old shoes to donate to the less fortunate.
         section
-            h2 Pretty Code
-            pre.
+            img(width='600' data-src='images/virtual-tour/creative-expression.jpg')
             p
-                | Code syntax highlighting courtesy of
-                a(href='http://softwaremaniacs.org/soft/highlight/en/description/') highlight.js
-                | .
+                | Creative expression at its best! An, ‘I am happy and I want everyone to know it’ moment. We live for these happy moments at our center.
         section
-            h2 Marvelous List
-            ul
-                li No order here
-                li Or here
-                li Or here
-                li Or here
+            img(width='600' data-src='images/virtual-tour/parents-day.jpg')
+            p.small-text
+                | Our famous Parent and Kid Day. Parents come in on a Saturday morning and spend the morning in their child’s classroom with the children and their teacher. Parents fully enjoy this day because it allows them to view their child in the classroom setting and they get to take home some fabulous art projects!
         section
-            h2 Fantastic Ordered List
-            ol
-                li One is smaller than...
-                li Two is smaller than...
-                li Three!
-        section
-            h2 Tabular Tables
-            table
-                thead
-                    tr
-                        th Item
-                        th Value
-                        th Quantity
-                tbody
-                    tr
-                        td Apples
-                        td $1
-                        td 7
-                    tr
-                        td Lemonade
-                        td $2
-                        td 18
-                    tr
-                        td Bread
-                        td $3
-                        td 2
-        section
-            h2 Clever Quotes
-            p
-                | These guys come in two forms, inline:
-                q(cite='http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations')
-                    | “The nice thing about standards is that there are so many to choose from”
-                |  and block:
-            blockquote(cite='http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations')
-                | “For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-                | reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.”
-        section
-            h2 Intergalactic Interconnections
-            p
-                | You can link between slides internally,
-                a(href='#/2/3') like this
-                | .
-        section
-            h2 Speaker View
-            p
-                | There's a
-                a(href='https://github.com/hakimel/reveal.js#speaker-notes') speaker view
-                | . It includes a timer, preview of the upcoming slide as well as your speaker notes.
-            p
-                | Press the
-                em S
-                |  key to try it out.
-            aside.notes
-                | Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-        section
-            h2 Export to PDF
-            p
-                | Presentations can be
-                a(href='https://github.com/hakimel/reveal.js#pdf-export') exported to PDF
-                | , here's an example:
-        section
-            h2 Global State
-            p
-                | Set
-                code data-state="something"
-                |  on a slide and
-                code "something"
-                |                        will be added as a class to the document element when the slide is open. This lets you
-                |                        apply broader style changes, like switching the page background.
-        section(data-state='customevent')
-            h2 State Events
-            p
-                | Additionally custom events can be triggered on a per slide basis by binding to the
-                code data-state
-                |  name.
-            pre.
-        section
-            h2 Take a Moment
-            p
-                | Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
-        section
-            h2 Much more
-            ul
-                li Right-to-left support
-                li
-                    a(href='https://github.com/hakimel/reveal.js#api') Extensive JavaScript API
-                li
-                    a(href='https://github.com/hakimel/reveal.js#auto-sliding') Auto-progression
-                li
-                    a(href='https://github.com/hakimel/reveal.js#parallax-background') Parallax backgrounds
-                li
-                    a(href='https://github.com/hakimel/reveal.js#keyboard-bindings') Custom keyboard bindings
-        section(style='text-align: left;')
-            h1 THE END
-            p
-                | -
-                a(href='http://slides.com') Try the online editor
-                br
-                |                        -
-                a(href='https://github.com/hakimel/reveal.js') Source code & documentation
+            div Thanks!
+            img(width='600' data-src='images/virtual-tour/thanks.jpg')
+            p.small-text
+                span.red Thanks&nbsp;
+                span
+                    | so much for watching our tour! We hope to see you in our day care center so you can see our facilities for yourself!
 
 script(src="/javascripts/lib/revealjs/head.min.js")
 script(src="/javascripts/lib/revealjs/reveal.js")
