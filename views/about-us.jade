@@ -8,19 +8,19 @@ block content
                 img(src="images/Big_3BoysPlayWithToys.JPG", style="display: block")
     div.row
         ul#about-us-tabs.tabs.z-depth-1
-            li.tab.col.l3
-                a(href="#locations") Locations
             li.tab.col.l3.scroll-spy-enabled
                 a(href="#philosophy") Philosophy
             li.tab.col.l3.scroll-spy-enabled
                 a(href="#model") Educational Model
             li.tab.col.l3.scroll-spy-enabled
                 a(href="#curriculum") Curriculum
-        div#locations.col.l12
-            include locations.jade
+            li.tab.col.l3
+                a(href="#locations") Locations
         div#philosophy.col.l12
             include philosophy.jade
         div#model.col.l12
             include educational-model.jade
         div#curriculum.col.l12
             include curriculum.jade
+        div#locations.col.l12
+            include locations.jade

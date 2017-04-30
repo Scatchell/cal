@@ -1,7 +1,4 @@
 $(document).ready(function () {
-    $(".about-us-locations").click(function () {
-        $('ul.tabs').tabs('select_tab', 'locations');
-    });
     $(".about-us-philosophy").click(function () {
         $('ul.tabs').tabs('select_tab', 'philosophy');
     });
@@ -10,5 +7,8 @@ $(document).ready(function () {
     });
     $(".about-us-curriculum").click(function () {
         $('ul.tabs').tabs('select_tab', 'curriculum');
+    });
+    $(".about-us-locations").click(function () {
+        $('ul.tabs').tabs('select_tab', 'locations');
     });
 });
