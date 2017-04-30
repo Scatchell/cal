@@ -12,9 +12,11 @@ html
     body
         include ./modal.jade
         include ./navbar.jade
+        include ./scroll-arrow.jade
         script(src='/javascripts/lib/materialize/bin/materialize.js')
         script(src='/javascripts/global.js')
         script(src='/javascripts/lib/list.js')
         script(src='/javascripts/lib/list.fuzzysearch.min.js')
+        script(src='/javascripts/scroll-arrow.js')
         block content
     include ./footer.jade
