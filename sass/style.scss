@@ -168,3 +168,7 @@ ul.faqs li.collection-item .answer {
     opacity: 0;
   }
 }
+
+@media only screen and (max-width: 760px) {
+  #scroll-down { display: none; }
+}
