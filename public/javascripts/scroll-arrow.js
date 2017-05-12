@@ -20,8 +20,10 @@ function isElementPartiallyVisible(el) {
 
     var rect = el.getBoundingClientRect();
 
+    console.log(rect.top);
+    console.log((window.innerHeight || document.documentElement.clientHeight));
+
     return (
-        rect.top >= 0 &&
         rect.top <= (window.innerHeight || document.documentElement.clientHeight) - 60
     );
 }
