@@ -2,6 +2,8 @@ $(document).ready(function () {
     var cardContent = $('.container');
     if (isElementPartiallyVisible(cardContent)) {
         $('#scroll-down').hide();
+    } else {
+        $('#scroll-down').show();
     }
 
     $(window).scroll(function (event) {
@@ -19,9 +21,6 @@ function isElementPartiallyVisible(el) {
     }
 
     var rect = el.getBoundingClientRect();
-
-    console.log(rect.top);
-    console.log((window.innerHeight || document.documentElement.clientHeight));
 
     return (
         rect.top <= (window.innerHeight || document.documentElement.clientHeight) - 60
