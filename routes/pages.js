@@ -14,11 +14,13 @@ router.get('/about-us', function (req, res, next) {
 });
 
 router.get('/faq', function (req, res, next) {
+    var contactNumberCentral = 'Central Ave: 773-763-5888';
+    var contactNumberMilwaukee = 'Milwaukee Ave: 773-763-0888';
     res.render('faq', {
         faqs: [
             {
                 question: 'How long has Care-A-Lot been in operation?',
-                answer: 'Care-A-Lot Early Learning Centers has been family owned and operated for over 20 years, under the same owner, established 1986.'
+                answer: 'Care-A-Lot Early Learning Centers has been family owned and operated for over 30 years, under the same owner, established 1986.'
             },
             {
                 question: 'What is the teacher/student ratio?',
@@ -62,7 +64,7 @@ router.get('/faq', function (req, res, next) {
             },
             {
                 question: 'How can I get more information?',
-                answer: 'Feel free to contact us with any questions!'
+                answer: 'Feel free to contact either of our centers with any questions!' + '</br></br>' + contactNumberCentral + '</br>' + contactNumberMilwaukee
             },
             {
                 question: 'What have other parents said about Care-A-Lot?',
