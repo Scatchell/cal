@@ -68,7 +68,7 @@ router.get('/faq', function (req, res, next) {
             },
             {
                 question: 'What have other parents said about Care-A-Lot?',
-                answer: 'Please see the testimonials section of our webpage for real parent reviews.'
+                answer: 'Please see the <a href="/testimonials">testimonials</a> section of our webpage for real parent reviews.'
             }
         ]
     });
@@ -84,6 +84,10 @@ router.get('/enrollment', function (req, res, next) {
 
 router.get('/contact-us', function (req, res, next) {
     res.render('contact-us', {});
+});
+
+router.get('/testimonials', function (req, res, next) {
+    res.render('testimonials', {});
 });
 
 module.exports = router;

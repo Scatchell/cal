@@ -142,6 +142,13 @@ ul.faqs li.collection-item .answer {
   border-left-style: solid;
 }
 
+.container.testimonials .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+  margin-left: 10px;
+  text-transform: none;
+  font-size: 1.2em;
+
+}
+
 @-webkit-keyframes sdb05 {
   0% {
     -webkit-transform: rotate(-45deg) translate(0, 0);
