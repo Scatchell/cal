@@ -14,7 +14,7 @@ router.get('/about-us', function (req, res, next) {
 });
 
 router.get('/faq', function (req, res, next) {
-    var contactNumberCentral = 'Central Ave: 773-763-5888';
+    var contactNumberCentral = 'Central Ave: 773-763-8888';
     var contactNumberMilwaukee = 'Milwaukee Ave: 773-763-0888';
     res.render('faq', {
         faqs: [
