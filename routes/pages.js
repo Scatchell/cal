@@ -32,7 +32,7 @@ router.get('/faq', function (req, res, next) {
             },
             {
                 question: 'What is the experience level of the teachers at Care-A-Lot?',
-                answer: 'On average, our teachers have 8 years of experience teaching, and we work through a robust selection process with each of our teachers to ensure they are able to meet our standards.'
+                answer: 'On average, our teachers have 17 years of experience teaching, and we work through a robust selection process with each of our teachers to ensure they are able to meet our standards.'
             },
             {
                 question: 'What kind of certifications do your teachers have?',
