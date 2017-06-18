@@ -94,4 +94,12 @@ router.get('/testimonials', function (req, res, next) {
     res.render('testimonials', {});
 });
 
+router.get('/teachers-milwaukee', function (req, res, next) {
+    res.render('teachers-milwaukee', {});
+});
+
+router.get('/teachers-central', function (req, res, next) {
+    res.render('teachers-central', {});
+});
+
 module.exports = router;

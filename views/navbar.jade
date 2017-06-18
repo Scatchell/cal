@@ -1,4 +1,4 @@
-include ./dropdown.jade
+include ./dropdowns.jade
 
 header
     script(src='/javascripts/navbar-footer.js')
@@ -31,10 +31,13 @@ header
                 li.dropdown-button(data-activates="about-us-dropdown")
                     a(href="/about-us#page-top") About Us
                         i.material-icons.right arrow_drop_down
-                li
-                    a(href="/virtual-tour") Virtual Tour
+                li.dropdown-button(data-activates="teachers-dropdown")
+                    a Teacher Bios
+                        i.material-icons.right arrow_drop_down
                 li
                     a(href="/testimonials") Testimonials
+                li
+                    a(href="/virtual-tour") Virtual Tour
                 li
                     a(href="/faq") FAQ
 
