@@ -11,13 +11,15 @@ html
         link(rel="stylesheet", href="https://fonts.googleapis.com/icon?family=Material+Icons")
         script(src='/javascripts/lib/jquery-1.11.3.js')
     body
-        include ./modal.jade
-        include ./navbar.jade
-        include ./scroll-arrow.jade
+        div#fb-root
         script(src='/javascripts/lib/materialize/bin/materialize.js')
         script(src='/javascripts/global.js')
         script(src='/javascripts/lib/list.js')
         script(src='/javascripts/lib/list.fuzzysearch.min.js')
         script(src='/javascripts/google-analytics-tracking-script.js')
+        script(src='/javascripts/facebook-sdk.js')
+        include ./modal.jade
+        include ./navbar.jade
+        include ./scroll-arrow.jade
         block content
     include ./footer.jade

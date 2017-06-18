@@ -3,7 +3,7 @@ include ./dropdowns.jade
 header
     script(src='/javascripts/navbar-footer.js')
     div.row.center
-        div.col.l4.offset-l2
+        div.col.l4
             div.row.center.logo#page-top
                 include ./logo.jade
             div.row.center
@@ -21,6 +21,14 @@ header
                     h5.valign
                         a(href="mailto:cal@carealot4kids.com")#cal-mail-link.space-margin-right cal@carealot4kids.com
                         span E-Mail us!
+        div.col.l3
+            div#like-container
+                p
+                    a(href="https://www.facebook.com/carealot6441") Care-A-Lot (Central) Facebook page
+                div.fb-like(data-href="https://www.facebook.com/carealot6441/" data-width="250" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true")
+                p
+                    a(href="https://www.facebook.com/carealot5522") Care-A-Lot (Milwaukee) Facebook page
+                div.fb-like(data-href="https://www.facebook.com/carealot5522/" data-width="250" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true")
     nav.top-nav
         div.nav-wrapper
             a(href="#" data-activates="mobile-side-nav" class="button-collapse")
