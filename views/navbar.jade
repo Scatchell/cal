@@ -23,11 +23,11 @@ header
                         span E-Mail us!
     nav.top-nav
         div.nav-wrapper
-            ul#nav-mobile
+            a(href="#" data-activates="mobile-side-nav" class="button-collapse")
+                i.material-icons menu
+            ul#nav-mobile.hide-on-med-and-down
                 li
                     a(href="/classrooms") Classrooms
-                li
-                    a(href="/enrollment") Enrollment
                 li.dropdown-button(data-activates="about-us-dropdown")
                     a(href="/about-us#page-top") About Us
                         i.material-icons.right arrow_drop_down
@@ -39,5 +39,23 @@ header
                 li
                     a(href="/virtual-tour") Virtual Tour
                 li
+                    a(href="/enrollment") Enrollment
+                li
                     a(href="/faq") FAQ
-
+            ul#mobile-side-nav.side-nav
+                li
+                    a(href="/classrooms") Classrooms
+                li.dropdown-button(data-activates="about-us-side-dropdown")
+                    a(href="/about-us#page-top") About Us
+                        i.material-icons.right arrow_drop_down
+                li.dropdown-button(data-activates="teachers-side-dropdown")
+                    a Teacher Bios
+                        i.material-icons.right arrow_drop_down
+                li
+                    a(href="/testimonials") Testimonials
+                li
+                    a(href="/virtual-tour") Virtual Tour
+                li
+                    a(href="/enrollment") Enrollment
+                li
+                    a(href="/faq") FAQ
