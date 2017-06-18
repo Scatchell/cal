@@ -193,6 +193,14 @@ ul.faqs li.collection-item .answer {
   width: 300px;
 }
 
-#like-container {
-  margin-top: 50px;
+#like-container p {
+  padding-bottom: 10px;
+
+  :last-child {
+    padding-bottom: 0;
+  }
+}
+
+#inquiries .fb-like {
+  margin-left: 10px;
 }
