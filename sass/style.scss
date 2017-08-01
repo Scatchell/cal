@@ -208,3 +208,8 @@ ul.faqs li.collection-item .answer {
 .nav-wrapper {
   min-width: 823px;
 }
+
+#video-container {
+  max-height: 500px;
+  overflow: hidden;
+}
