@@ -28,7 +28,7 @@ router.get('/faq', function (req, res, next) {
             },
             {
                 question: 'What kind of meals are available to the children at Care-A-Lot?',
-                answer: 'All of our meals are prepared on site.  Every day the children will enjoy breakfast (served until 8:30am), a morning snack, a hot lunch, and an afternoon snack.  All menus are approved by the Chicago Department of Health, and all meals are kid friendly and healthy!'
+                answer: 'All of our meals are prepared by our catering service, <a href="http://www.food2youinc.com">Food2You</a>.  Every day the children will enjoy food from this catering service which specializes in making delicious, healthy, organic meals for daycare centers. This includes breakfast, hot lunch, and an afternoon snack.'
             },
             {
                 question: 'What is the experience level of the teachers at Care-A-Lot?',
