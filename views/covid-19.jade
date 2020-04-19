@@ -1,0 +1,79 @@
+extends layout
+
+block content
+    script(src='/javascripts/scrollspy-init.js')
+    div.row
+        div.col.m9
+            div.container.classrooms
+                h1 COVID-19 Information
+                div#general-info.section.scroll-spy
+                    div.card
+                        div.card-content
+                            span.card-title
+                                h4 General Covid Info
+                            p.
+                                Care-A-Lot has been closed since march 23 due to the covid-19 virus. We are watching the news to see when Governor Pritzker deems it safe enough to re-open daycare centers in the city of Chicago.
+                            p.
+                                As soon as we hear that it is safe, Care-A-Lot will open once again. We will phone all the families enrolled at the center to advise them of our opening date as soon as we know.
+                            p.
+                                We thank you for your patience and understanding during the shutdown. We hope that you are all enjoying this extra time with your children. They are delightful treasures that will flourish with this extra family time!
+                            p.
+                                Please stay safe and healthy - we miss you all and can't wait to welcome you back to Care-A-Lot!
+                            p.
+                                From: The Care-A-Lot staff (4/15/20)
+                            p For more information always feel free to E-Mail us:
+                                &nbsp;
+                                a(href="mailto:cal@carealot4kids.com")#cal-mail-link cal@carealot4kids.com
+
+                div#reopening.section.scroll-spy
+                    div.card
+                        div.card-content
+                            span.card-title
+                                h4 When Care-A-Lot plans to reopen
+                            p.
+                                Care-A-Lot plans to reopen as soon as we get word from our state officials that it is safe to reopen.
+                            p.
+                                At this time we will contact all of our parents and alert them that we are reopening the school.
+                div#virtual-teacher.section.scroll-spy
+                    div.card
+                        div.card-content
+                            span.card-title
+                                h4 Care-A-Lot Virtual Teacher Offering
+                            p In these difficult times, we realize parents may appreciate their children getting the chance to talk to the teachers they know and love from Care-A-Lot. In order to do our best to continue giving a great experience to the kids who can no longer attend day care during this lockdown period, we've made an effort to set up a video chat where some of our teachers can continue to interact with the students. If you would like to be included in this program, free of cost, please contact us over E-Mail!
+                                &nbsp;
+                                a(href="mailto:cal@carealot4kids.com")#cal-mail-link cal@carealot4kids.com
+
+                div#cal-story.section.scroll-spy
+                    div.card
+                        div.card-content
+                            span.card-title
+                                h4 We miss you!
+                            p.
+                                Since Care-A-Lot has been closed, we've put up signs in our windows to explain the situation to parents and children passing by, as shown below.
+                            img(src="/images/covid-19/covid-window.jpeg", width=300)
+                            p.
+                                We were delighted to see some of our students who were walking by respond by sending us the following image
+                            img(src="/images/covid-19/window-response.jpeg", width=300)
+                            p.
+                                ...and we wanted to say, we miss you too! We wish all the families we've been working to serve these past 30 years the best during these difficult times. We miss all of our current students, and hope to see you all when we are allowed to reopen!
+                div#other-resources.section.scroll-spy
+                    div.card
+                        div.card-content
+                            span.card-title
+                                h4 Other COVID-19 Resources
+                            p.
+                                For more information on COVID-19, the following link may help:
+                            a(href="https://www.cdc.gov/coronavirus") https://www.cdc.gov/coronavirus
+        div.col.m2.right-nav
+            div.right-nav-wrapper
+                ul.section.table-of-contents
+                    li
+                        a(href="#general-info") General Info
+                    li
+                        a(href="#reopening") When we will reopen
+                    li
+                        a(href="#virtual-teacher") Virtual Teacher Offering
+                    li
+                        a(href="#cal-story") We miss you!
+                    li
+                        a(href="#other-resources") Other COVID-19 Resources

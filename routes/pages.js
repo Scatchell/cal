@@ -102,4 +102,8 @@ router.get('/teachers-central', function (req, res, next) {
     res.render('teachers-central', {});
 });
 
+router.get('/covid-19', function (req, res, next) {
+    res.render('covid-19', {});
+});
+
 module.exports = router;
