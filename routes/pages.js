@@ -40,7 +40,7 @@ router.get('/faq', function (req, res, next) {
             },
             {
                 question: 'What about the teacher turnover rate?',
-                answer: 'We are very lucky to have a very small turnover rate at Care-A-Lot.  Returning alumni are surprised when they return years later and their favorite teachers are still in the classroom at Care-A-Lot. Margie 31 years, Peggy 31 years, Sheri 30 years, Cindy 20 years, Cheryl 14 years, Sara S. 11 years, Monica 10 years, Sara P. 8 years, Vicky 6 years.  We are very proud of the teachers that make Care-A-Lot the outstanding centers that they are.'
+                answer: 'We are very lucky to have a very small turnover rate at Care-A-Lot.  Returning alumni are surprised when they return years later and their favorite teachers are still in the classroom at Care-A-Lot. Margie 31 years, Peggy 31 years, Sheri 30 years, Cindy 20 years, Cheryl 14 years, Sara S. 11 years, Sara P. 8 years, Vicky 6 years.  We are very proud of the teachers that make Care-A-Lot the outstanding centers that they are.'
             },
             {
                 question: 'How will will I know what my child\'s day was like?',
